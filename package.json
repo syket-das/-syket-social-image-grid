@@ -1,7 +1,7 @@
 {
-  "name": "-syket-social-image-grid",
-  "version": "0.0.0",
-  "description": "null",
+  "name": "@syket/social-image-grid",
+  "version": "1.0.0",
+  "description": "A responsive social media-style image grid component with modal gallery for React",
   "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
@@ -28,7 +28,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build --output-dir dist/storybook"
   },
-  "author": "syket-das",
+  "author": "Syket Das",
   "license": "MIT",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
@@ -78,12 +78,5 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  },
-  "repository": {
-    "url": "https://github.com/syket-das/-syket-social-image-grid.git"
-  },
-  "bugs": {
-    "url": "https://github.com/syket-das/-syket-social-image-grid/issues"
-  },
-  "homepage": "https://github.com/syket-das/-syket-social-image-grid#readme"
+  }
 }
